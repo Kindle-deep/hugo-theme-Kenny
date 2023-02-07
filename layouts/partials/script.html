@@ -1,0 +1,19 @@
+<script src="{{ "/js/jquery.min.js" | relURL }}"></script>
+
+{{- $header := resources.Get "js/header.js" | resources.ExecuteAsTemplate (printf "%s/js/header-rendered.js" .Lang) . -}}
+{{- $homeTags := resources.Get "js/home-tags.js" | resources.ExecuteAsTemplate (printf "%s/js/home-tags-rendered.js" .Lang) . -}}
+
+{{- .Scratch.Set "script" (slice $header) -}}
+{{- .Scratch.Add "script" (slice $homeTags) -}}
+
+{{- $path := (strings.TrimPrefix "/" (printf `%s/js/tony.js` .Site.LanguagePrefix)) -}}
+{{- $script := .Scratch.Get "script" | resources.Concat $path | resources.Minify | resources.Fingerprint -}}
+{{- printf `<script src="%s" integrity="%s"></script>` $script.RelPermalink $script.Data.Integrity | safeHTML -}}
+
+{{ partial "third-party/medium-zoom.html" . }}
+
+{{ if .Site.Params.enableBaiduPush }}
+    {{ partial "third-party/baidu-push.html" . }}
+{{ end }}
+
+{{ partial "custom/script.html" . }}

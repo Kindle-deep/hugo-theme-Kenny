@@ -1,0 +1,16 @@
+<link href="https://knlde.s3.ladydaily.com/Artalk/Artalk.css" rel="stylesheet">
+<script src="https://knlde.s3.ladydaily.com/Artalk/Artalk.js"></script>
+
+<!-- Artalk -->
+<div id="Comments"></div>
+
+<script>
+  new Artalk({
+    el: '#Comments',
+    pageKey: '{{ .Permalink }}',
+    pageTitle: '{{ .Title }}',
+    ArtalkServer: '{{ .Site.Params.ArtalkServer }}',
+    ArtalkSite: '{{ .Site.Params.ArtalkSite }}',
+    // ...你的其他配置
+  })
+</script>
