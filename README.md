@@ -28,17 +28,21 @@ https://github.com/ThemeTony/hugo-theme-Tony
 - [x] Remixicon
 - [x] Font awesome
 - [x] highlight.js
+- [ ] Fancybox
+- [ ] 搜索
 
 ## 文档
 ~~https:docs.kenny.knlde.top~~
 
 ## 示例
 
+https://kenny-knlde.netlify.app
+
 ## 下载与使用
 ### 下载
 ```bash
 git init
-it submodule add --depth 1 https://github.com/Kindle-deep/hugo-theme-Kenny.git themes/Kenny
+git submodule add --depth 1 https://github.com/Kindle-deep/hugo-theme-Kenny.git themes/Kenny
 ```
 
 ### 使用
