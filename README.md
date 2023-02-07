@@ -64,10 +64,6 @@ git submodule update --rebase --remote
 
 [GPL-3.0](./LICENSE)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git/github.com/Kindle-deep/hugo-theme-Kenny.svg?type=shield)](https://app.fossa.com/projects/git/github.com/Kindle-deep/hugo-theme-Kenny?ref=badge_shield)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git/github.com/Kindle-deep/hugo-theme-Kenny.svg?type=large)](https://app.fossa.com/projects/git/github.com/Kindle-deep/hugo-theme-Kenny?ref=badge_large)
-
 
 
 
