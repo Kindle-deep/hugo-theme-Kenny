@@ -193,6 +193,10 @@ paginate = 10
     search = false
 
     #####################################
+    # Fancybox
+    fancybox = true
+
+    #####################################
     # Comments
 
     # Whether to open (global settings)
@@ -222,6 +226,11 @@ paginate = 10
     valineRequiredFields = []
     # Description: https://valine.js.org/
 
+    ## Waline
+    enableWaline = false
+    walineServerURL = ''
+    walineLogin = ''
+    # Description: https://waline.js.org/
 
     ## Artalk
     enableArtalk = false

@@ -20,15 +20,14 @@ https://github.com/ThemeTony/hugo-theme-Tony
 - [x] 分类页
 - [x] 评论
     - [x] Valine
-    - [ ] Waline
+    - [x] Waline
     - [x] Twikoo
     - [x] Artalk
 - [x] Pinned Pages
 - [x] JQuery
 - [x] Remixicon
-- [x] Font awesome
 - [x] highlight.js
-- [ ] Fancybox
+- [x] Fancybox
 - [ ] 搜索
 
 ## 文档

@@ -1,6 +1,8 @@
-<script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-<script>
-Waline({
+<link href="/theme-cdn/comments/Waline/waline.css" rel="stylesheet">
+<div id="waline"></div>
+<script type="module">
+  import { init } from '/theme-cdn/comments/Waline/waline.mjs';
+    init({
   el: '#waline',
   serverURL: '{{ .Site.Params.walineServerURL }}',
   login: '{{ .Site.Params.walineLogin }}',
