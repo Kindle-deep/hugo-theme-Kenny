@@ -189,6 +189,10 @@ paginate = 10
     hrefTargetBlank = true
 
     #####################################
+    # 备案号
+    ICPNumber = ''
+
+    #####################################
     # Search
     search = false
 

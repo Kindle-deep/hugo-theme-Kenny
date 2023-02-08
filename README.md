@@ -28,6 +28,7 @@ https://github.com/ThemeTony/hugo-theme-Tony
 - [x] Remixicon
 - [x] highlight.js
 - [x] Fancybox
+- [x] 页脚ICP
 - [ ] 搜索
 
 ## 文档

@@ -15,9 +15,12 @@
         {{ end }}
         <p>
             {{ if .Site.Params.displayPoweredBy }}
-                Powered by <a href="https://github.com/gohugoio/hugo">Hugo</a> | Theme is <a href="https://github.com/Kindle-deep/hugo-theme-Kennt">Kenny</a>
+                Powered by <a href="https://github.com/gohugoio/hugo">Hugo</a> | Theme is <a href="https://github.com/Kindle-deep/hugo-theme-Kenny">Kenny</a>
             {{ end }}
         </p>
+                {{ .Site.Params.ICP }}
+                    <div id="ICP"></div>
+                    {{ partial "third-party/icp.html" . }}
     </div>
 </div>
 {{ partial "custom/footer.html" . }}

@@ -1,1 +1,19 @@
- 
+@media screen and (max-width: 1210px) {
+    .index-div{
+        display: none;
+    }
+}
+
+.index-div-next{
+    display: none;
+}
+
+.index-div{
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family:SmileySans;
+    src:url(/fonts/SmileySans.woff2) format('woff2'),
+    font-style:normal;
+}
