@@ -197,12 +197,6 @@ paginate = 10
     enableSearch = false
 
     #####################################
-    # Share.js
-    share_style = true
-    custom_css = ["/theme-cdn/sharejs/css/share.min.css"]
-    custom_js = ["/theme-cdn/sharejs/js/social-share.min.js"]
-
-    #####################################
     # Fancybox
     fancybox = true
 
