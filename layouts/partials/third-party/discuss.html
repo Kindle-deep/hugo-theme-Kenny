@@ -1,0 +1,16 @@
+<head>
+  ...
+  <!-- <script src="https://cdn.jsdelivr.net/npm/discuss@latest/dist/discuss.js"></script> -->
+  <!-- 建议你使用指定版本的js，而不是上方的最新版本，因为后续如果js有更新的话，可能会出现问题 -->
+  <script src="/theme-cdn/comments/Discuss/discuss.js"></script>
+</head>
+<body>
+  <div id="Discuss-Comments"></div>
+  <script>
+    // 初始化
+    discuss.init({
+      el: '#Discuss-Comments',
+      serverURLs: '{{ .Site.Params.DiscussServerURLs }}'
+    })
+  </script>
+</body>

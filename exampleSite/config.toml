@@ -248,6 +248,11 @@ paginate = 10
     TwikooRegion = ''
     ## Description: https://twikoo.js.org
 
+    ## Discuss
+    enableDiscuss = false
+    DiscussServerURLs = ''
+    ## Description: https://discuss.js.org
+
     #####################################
     # Google Analytics
 
