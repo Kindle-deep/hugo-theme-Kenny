@@ -2,8 +2,7 @@
 ## 基于hugo主题Tony开发的一款简洁强大的hugo主题
 
 ## 预览
-
-![预览图](https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/image.png)
+<img scr="https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/image.png">
 
 ## 原仓库
 https://github.com/ThemeTony/hugo-theme-Tony
@@ -68,7 +67,7 @@ git submodule update --rebase --remote
 [![Stargazers over time](https://starchart.cc/Kindle-deep/hugo-theme-Kenny.svg)](https://starchart.cc/Kindle-deep/hugo-theme-Kenny)
 
 ## 加入主题讨论群
-![1675924781692_temp_qrcode_share_9993](https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/1675924781692_temp_qrcode_share_9993.png)
+<img src="https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/1675924781692_temp_qrcode_share_9993.png">
 
 ## License
 [GPL-3.0](./LICENSE)
