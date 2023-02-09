@@ -24,6 +24,7 @@ https://github.com/ThemeTony/hugo-theme-Tony
     - [x] Waline
     - [x] Twikoo
     - [x] Artalk
+    - [x] Discuss
 - [x] Pinned Pages
 - [x] JQuery
 - [x] Remixicon
