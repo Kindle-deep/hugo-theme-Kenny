@@ -36,6 +36,9 @@
                             </div>
                         </div>
                     {{ end }}
+                        {{ if (.Params.share) }}
+                            {{ partial "share.html" }}
+                        {{ end }}
                     {{- partial "utils/content.html" . -}}
                     {{ if .Params.Tags }}
                         {{ partial "components/post/tags.html" . }}

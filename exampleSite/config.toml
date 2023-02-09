@@ -109,8 +109,8 @@ paginate = 10
 
 # Hugo output control
 [outputs]
-    page = ["HTML"]
-    home = ["HTML", "SectionsRSS", "SectionsAtom"]
+    page = ["HTML", "RSS"]
+    home = ["HTML", "SectionsRSS", "SectionsAtom", "JSON"]
     section = ["HTML"]
     # Category
     taxonomyTerm = ["HTML"]
@@ -193,8 +193,14 @@ paginate = 10
     ICPNumber = ''
 
     #####################################
-    # Search
-    search = false
+    # Search (Fuse.js)
+    enableSearch = false
+
+    #####################################
+    # Share.js
+    share_style = true
+    custom_css = ["/theme-cdn/sharejs/css/share.min.css"]
+    custom_js = ["/theme-cdn/sharejs/js/social-share.min.js"]
 
     #####################################
     # Fancybox

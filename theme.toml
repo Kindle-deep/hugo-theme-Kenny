@@ -1,11 +1,11 @@
 name = "Kenny"
 license = "GPL-3.0"
 licenselink = "https://github.com/Kindle-deep/hugo-theme-Kenny/blob/main/LICENSE"
-description = "An Elegant Hugo Theme Based on WordPress Theme Tony"
+description = "基于hugo主题Tony开发的一款简洁强大的主题"
 homepage = "https://kenny.js.org"
 tags = ["simple", "Elegant", "transportation", "porting"]
 features = ["medium-zoom", "social icon", "thumbnail", "Valine","highlight.js","Google Analytics","Archives Page"]
-min_version = "0.59.1"
+min_version = "1.0"
 
 # If the theme has a single author
 [author]
