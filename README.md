@@ -39,7 +39,7 @@ https://github.com/ThemeTony/hugo-theme-Tony
 
 ## 示例
 
-https://kenny-knlde.netlify.app
+https://blog.knlde.cn/
 
 ## 下载与使用
 ### 下载
